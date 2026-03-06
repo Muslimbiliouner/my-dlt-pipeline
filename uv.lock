@@ -275,7 +275,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "dlt", extras = ["duckdb"], specifier = ">=1.22.2" },
+    { name = "dlt", extras = ["duckdb", "rest-api"], specifier = ">=1.22.2" },
     { name = "numpy", specifier = ">=2.4.2" },
     { name = "pandas", specifier = ">=3.0.1" },
 ]
